@@ -40,6 +40,7 @@ for file in file_list:
         print('Пустой файл ', file)
 
 # записываем итоговую таблицу в файл
+# подсчитываем суммарное значение приборов по типу
 
 data = data.groupby(by=["Тип"]).sum().reset_index()
 

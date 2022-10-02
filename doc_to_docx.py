@@ -1,6 +1,7 @@
+# модуль работы с Word файлами
+
 from win32com import client as wc
 import os
-
 
 def doc_to_docx(files_path, filename_template='*', isrm_file=True):
     # функция преобразования файлов doc в файлы docx

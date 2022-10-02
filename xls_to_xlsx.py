@@ -1,3 +1,5 @@
+# Преобразование Exel-файлов из формата xls в xlsx средствами Windows
+
 from win32com import client as wc
 import os
 
